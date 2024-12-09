@@ -1,9 +1,0 @@
-# Step 1:
-sudo su
-
-
-# Step 2:
-export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && bash -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
-
-
-# https://cdn2.xmrth.one/s/Iwur9sUbOjZc4R3M?clash=2
