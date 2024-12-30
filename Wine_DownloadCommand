@@ -1,16 +1,16 @@
 # Step 1:
-sudo apt-get update
+sudo apt update
 
 
 # Step 2:
-sudo apt-get install -y dirmngr ca-certificates curl software-properties-common apt-transport-https
+sudo apt install -y dirmngr ca-certificates curl software-properties-common apt-transport-https
 
 
 # Step 3:
 sudo dpkg --add-architecture i386
-sudo apt-get update
+sudo apt update
 
 
 # Step 4:
-sudo apt-get install -y wine32
+sudo apt install -y wine wine32
 
